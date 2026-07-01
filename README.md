@@ -54,6 +54,8 @@
 
 > Build things that are clear before they are clever.
 
+[![GitHub Roast](https://ghfind.com/api/card/leslie2046?theme=dark)](https://ghfind.com/u/leslie2046)
+
 ### Notes
 
 I like tools that feel calm, understandable, and immediately useful.
