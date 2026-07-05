@@ -10,9 +10,9 @@
 
   <text x="76" y="84" fill="#8B7F72" font-family="'Segoe UI', Arial, sans-serif" font-size="15" letter-spacing="4">PROFILE README</text>
   <text x="76" y="210" fill="#171412" font-family="Georgia, 'Times New Roman', serif" font-size="88">leslie2046</text>
-  <text x="76" y="262" fill="#4F463E" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Useful AI tools for real workflows.</text>
-  <text x="76" y="308" fill="#7E7368" font-family="'Segoe UI', Arial, sans-serif" font-size="18">plugins / integrations / workflow tooling</text>
-  <text x="76" y="404" fill="#9A8F84" font-family="'Segoe UI', Arial, sans-serif" font-size="16">clear systems / practical software / calm interfaces</text>
+  <text x="76" y="262" fill="#4F463E" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Practical AI tooling for real workflows.</text>
+  <text x="76" y="308" fill="#7E7368" font-family="'Segoe UI', Arial, sans-serif" font-size="18">plugins / retrieval / model integrations</text>
+  <text x="76" y="404" fill="#9A8F84" font-family="'Segoe UI', Arial, sans-serif" font-size="16">upstream fixes / useful software / dependable workflows</text>
 
   <circle cx="1016" cy="222" r="138" fill="#E8DED0"/>
   <circle cx="1016" cy="222" r="138" stroke="#1E1A16" stroke-opacity="0.08" stroke-width="1.5"/>
