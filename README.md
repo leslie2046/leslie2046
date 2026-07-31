@@ -2,6 +2,26 @@
 
 I build practical AI infrastructure: Dify plugins, retrieval integrations, model tooling, and the connectors that turn isolated systems into dependable workflows.
 
+[![GitHub Roast 评分徽章](https://ghfind.com/api/badge/leslie2046?lang=zh)](https://ghfind.com/u/leslie2046?ref=badge)
+
+## Languages and Tools
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Xinference](https://img.shields.io/badge/-Xinference-4B32C3?style=flat-square)
+![Dify](https://img.shields.io/badge/-Dify-1C64F2?style=flat-square&logo=dify&logoColor=white)
+![RAGFlow](https://img.shields.io/badge/-RAGFlow-FF5C35?style=flat-square)
+
+![Kaldi](https://img.shields.io/badge/-Kaldi-4B8BBE?style=flat-square)
+![sherpa-onnx](https://img.shields.io/badge/-sherpa--onnx-1F6FEB?style=flat-square)
+![Ultralytics YOLO](https://img.shields.io/badge/-Ultralytics_YOLO-111F68?style=flat-square&logo=ultralytics&logoColor=white)
+![PaddlePaddle](https://img.shields.io/badge/-PaddlePaddle-0062B0?style=flat-square&logo=paddlepaddle&logoColor=white)
+![FunASR](https://img.shields.io/badge/-FunASR-5B45DE?style=flat-square)
+
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Langfuse](https://img.shields.io/badge/-Langfuse-000000?style=flat-square&logo=langfuse&logoColor=white)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![RustFS](https://img.shields.io/badge/-RustFS-CE422B?style=flat-square)
+
 ## What I build
 
 * **Dify Plugin Ecosystem**: Workflow tools that bring language processing, knowledge operations, storage, and external data into Dify.
