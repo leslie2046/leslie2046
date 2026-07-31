@@ -13,6 +13,7 @@
 - Preserve all existing README prose, project links, and section order after the new badge section.
 - Use Shields.io `flat-square` badges throughout the technology section.
 - Use official logos only where Shields.io supports them reliably; otherwise use text-only badges.
+- Link every technology badge to its official GitHub repository.
 - Add no generated assets, scripts, workflows, or dependencies.
 - Push the completed commits to the current remote branch.
 
@@ -38,21 +39,21 @@ Immediately after the opening paragraph, add this exact Markdown:
 
 ## Languages and Tools
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Xinference](https://img.shields.io/badge/-Xinference-4B32C3?style=flat-square)
-![Dify](https://img.shields.io/badge/-Dify-1C64F2?style=flat-square&logo=dify&logoColor=white)
-![RAGFlow](https://img.shields.io/badge/-RAGFlow-FF5C35?style=flat-square)
+[![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/python/cpython)
+[![Xinference](https://img.shields.io/badge/-Xinference-4B32C3?style=flat-square)](https://github.com/xorbitsai/inference)
+[![Dify](https://img.shields.io/badge/-Dify-1C64F2?style=flat-square&logo=dify&logoColor=white)](https://github.com/langgenius/dify)
+[![RAGFlow](https://img.shields.io/badge/-RAGFlow-FF5C35?style=flat-square)](https://github.com/infiniflow/ragflow)
 
-![Kaldi](https://img.shields.io/badge/-Kaldi-4B8BBE?style=flat-square)
-![sherpa-onnx](https://img.shields.io/badge/-sherpa--onnx-1F6FEB?style=flat-square)
-![Ultralytics YOLO](https://img.shields.io/badge/-Ultralytics_YOLO-111F68?style=flat-square&logo=ultralytics&logoColor=white)
-![PaddlePaddle](https://img.shields.io/badge/-PaddlePaddle-0062B0?style=flat-square&logo=paddlepaddle&logoColor=white)
-![FunASR](https://img.shields.io/badge/-FunASR-5B45DE?style=flat-square)
+[![Kaldi](https://img.shields.io/badge/-Kaldi-4B8BBE?style=flat-square)](https://github.com/kaldi-asr/kaldi)
+[![sherpa-onnx](https://img.shields.io/badge/-sherpa--onnx-1F6FEB?style=flat-square)](https://github.com/k2-fsa/sherpa-onnx)
+[![Ultralytics YOLO](https://img.shields.io/badge/-Ultralytics_YOLO-111F68?style=flat-square&logo=ultralytics&logoColor=white)](https://github.com/ultralytics/ultralytics)
+[![PaddlePaddle](https://img.shields.io/badge/-PaddlePaddle-0062B0?style=flat-square&logo=paddlepaddle&logoColor=white)](https://github.com/PaddlePaddle/Paddle)
+[![FunASR](https://img.shields.io/badge/-FunASR-5B45DE?style=flat-square)](https://github.com/modelscope/FunASR)
 
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Langfuse](https://img.shields.io/badge/-Langfuse-000000?style=flat-square&logo=langfuse&logoColor=white)
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![RustFS](https://img.shields.io/badge/-RustFS-CE422B?style=flat-square)
+[![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/docker/docker-ce)
+[![Langfuse](https://img.shields.io/badge/-Langfuse-000000?style=flat-square&logo=langfuse&logoColor=white)](https://github.com/langfuse/langfuse)
+[![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)](https://github.com/grafana/grafana)
+[![RustFS](https://img.shields.io/badge/-RustFS-CE422B?style=flat-square)](https://github.com/rustfs/rustfs)
 ```
 
 - [ ] **Step 2: Verify badge inventory and Markdown structure**

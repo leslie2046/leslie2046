@@ -22,7 +22,7 @@ Keep the rest of the README copy and section order unchanged.
 - Use recognizable official logos and brand colors when Shields.io supports them reliably.
 - Use clear text-only badges when a dependable official logo is unavailable.
 - Link the GitHub Roast badge to `https://ghfind.com/u/leslie2046?ref=badge` and load its image from `https://ghfind.com/api/badge/leslie2046?lang=zh`.
-- Keep technology badges informational rather than adding links that could imply endorsements or ownership.
+- Link each technology badge to its official GitHub repository so the badge also serves as direct project navigation.
 
 ## Repository Changes
 
@@ -32,7 +32,7 @@ Keep the rest of the README copy and section order unchanged.
 
 ## Validation
 
-- Check every badge image URL and the GitHub Roast destination URL.
+- Check every badge image URL, official project repository URL, and the GitHub Roast destination URL.
 - Confirm the Markdown renders as three compact technology rows.
 - Confirm the visible labels use the intended product names.
 - Run `git diff --check` and inspect the final diff before committing.
