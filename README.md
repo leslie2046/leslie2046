@@ -44,6 +44,7 @@ I build practical AI infrastructure: Dify plugins, retrieval integrations, model
 * **[MinIO](https://github.com/leslie2046/dify-plugin-minio)**: Read, upload, list, and inspect objects in MinIO-backed AI workflows.
 * **[Juhe](https://github.com/leslie2046/dify-plugin-juhe)**: Access weather, exchange rates, oil and gold prices, and stock-market data through Juhe APIs.
 * **[Knowledge](https://github.com/leslie2046/dify-knowledge-plugin)**: Bring existing Dify knowledge-base operations into plugin workflows.
+* **[Moderation](https://github.com/leslie2046/moderation_plugin)**: Moderate Dify app input and output with configurable keywords, preset responses, and keyword masking.
 
 ## Selected Project
 
