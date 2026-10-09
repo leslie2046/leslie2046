@@ -1,8 +1,45 @@
 # Hi, I'm Leslie 👋
 
-I build practical AI infrastructure: Dify plugins, retrieval integrations, model tooling, and the connectors that turn isolated systems into dependable workflows.
+I build Dify plugins, RAG integrations, and model-serving infrastructure, with upstream contributions to Dify, Xinference, and RAGFlow.
 
-[![GitHub Roast 评分徽章](https://ghfind.com/api/badge/leslie2046?lang=zh)](https://ghfind.com/u/leslie2046?ref=badge)
+## Dify Plugin Collection
+
+* **[RAGFlow](https://github.com/leslie2046/dify-ragflow-plugin)**: Connect Dify to RAGFlow for datasets, documents, chunks, retrieval, and memory workflows.
+* **[Lingua](https://github.com/leslie2046/dify-plugin-lingua)**: Detect languages with ISO language-code output and optional language scoping. [Dify Marketplace](https://marketplace.dify.ai/plugins/leslie2046/lingua)
+* **[MinIO](https://github.com/leslie2046/dify-plugin-minio)**: Read, upload, list, and inspect objects in MinIO-backed AI workflows.
+* **[Knowledge](https://github.com/leslie2046/dify-knowledge-plugin)**: Use existing Dify knowledge-base operations inside plugin workflows.
+* **[Moderation](https://github.com/leslie2046/moderation_plugin)**: Moderate Dify app input and output with configurable keywords, preset responses, and keyword masking.
+* **[Juhe](https://github.com/leslie2046/dify-plugin-juhe)**: Access weather, exchange rates, oil and gold prices, and stock-market data through Juhe APIs.
+
+## Agent Skills
+
+* **[skills](https://github.com/leslie2046/skills)**: Reusable agent skills for the workflows I use and maintain.
+
+## Selected Open Source Contributions
+
+Representative merged PRs, from retrieval performance to distributed model serving.
+
+### [Dify](https://github.com/langgenius/dify)
+
+* **[Knowledge retrieval performance #42673](https://github.com/langgenius/dify/pull/42673)**: Cache parsed provider declarations, check query embedding caches before constructing models, and reuse rerank model metadata; the PR's 100-request benchmark reported **42.2% lower mean latency** and **73.7% lower P95 latency**.
+* **[Chatflow startup performance #36773](https://github.com/langgenius/dify/pull/36773)**: Reuse request-scoped provider metadata and runtime objects to reduce repeated model resolution; the PR's local benchmark reported **41.3% lower mean workflow startup latency**.
+* **[Excel image ingestion #37104](https://github.com/langgenius/dify/pull/37104)**: Extract embedded images from `.xlsx` knowledge imports, store them as uploaded files, and preserve image-only rows for downstream indexing.
+
+[All merged Dify PRs](https://github.com/langgenius/dify/pulls?q=is%3Apr+author%3Aleslie2046+is%3Amerged)
+
+### [Xinference](https://github.com/xorbitsai/inference)
+
+* **Dynamic replica scaling [#5426](https://github.com/xorbitsai/inference/pull/5426) / [#5491](https://github.com/xorbitsai/inference/pull/5491)**: Add configurable scale-up and placement across multiple workers, with CPU/GPU allocation, failure rollback, and replica-state reconciliation.
+* **Supervisor restart recovery [#4731](https://github.com/xorbitsai/inference/pull/4731) / [#5250](https://github.com/xorbitsai/inference/pull/5250)**: Reconnect workers and rebuild replica state after supervisor restarts, including recovery from stale supervisor references.
+* **[OpenTelemetry integration #4666](https://github.com/xorbitsai/inference/pull/4666)**: Introduce optional OpenTelemetry instrumentation with a configurable OTLP endpoint for model-serving observability.
+
+[All merged Xinference PRs](https://github.com/xorbitsai/inference/pulls?q=is%3Apr+author%3Aleslie2046+is%3Amerged)
+
+### Other Contributions
+
+* **[Dify Official Plugins](https://github.com/langgenius/dify-official-plugins)**: Provider and model updates for SiliconFlow, DeepSeek, Volcengine, Azure OpenAI, and tool-call message handling.
+* **[Dify Plugin SDKs](https://github.com/langgenius/dify-plugin-sdks)** and **[Plugin Daemon](https://github.com/langgenius/dify-plugin-daemon)**: Runtime improvements around app context, persistence, and storage accounting.
+* **[RAGFlow](https://github.com/infiniflow/ragflow)**: Model-provider additions and retrieval-system integration work.
 
 ## Languages and Tools
 
@@ -22,34 +59,4 @@ I build practical AI infrastructure: Dify plugins, retrieval integrations, model
 [![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)](https://github.com/grafana/grafana)
 [![RustFS](https://img.shields.io/badge/-RustFS-CE422B?style=flat-square)](https://github.com/rustfs/rustfs)
 
-## What I build
-
-* **Dify Plugin Ecosystem**: Workflow tools that bring language processing, knowledge operations, storage, and external data into Dify.
-* **Retrieval and Knowledge Workflows**: Integrations across datasets, documents, chunks, memory, and production RAG systems.
-* **Model and Inference Integrations**: Provider support and serving improvements for language, speech, vision, and multimodal models.
-* **Workflow Infrastructure**: The SDK, runtime, persistence, and observability work that keeps AI applications reliable beyond the demo.
-
-## Contributions
-
-* **[Dify](https://github.com/langgenius/dify)**: Web and API fixes across chat state, annotation imports, knowledge ingestion, workflow startup latency, and Langfuse reporting.
-* **[Dify Official Plugins](https://github.com/langgenius/dify-official-plugins)**: Provider and model updates for SiliconFlow, DeepSeek, Volcengine, Azure OpenAI, and tool-call message handling.
-* **[Dify Plugin SDKs](https://github.com/langgenius/dify-plugin-sdks)** and **[Plugin Daemon](https://github.com/langgenius/dify-plugin-daemon)**: Runtime improvements around app context, persistence, and storage accounting.
-* **[Xinference](https://github.com/xorbitsai/inference)**: Serving and deployment improvements spanning worker selection, replicas, GPU metrics, OCR, and speech models.
-* **[RAGFlow](https://github.com/infiniflow/ragflow)**: Model-provider additions and retrieval-system integration work.
-
-## Dify Plugin Collection
-
-* **[Lingua](https://github.com/leslie2046/dify-plugin-lingua)**: Detect languages in Dify workflows with ISO language-code output and optional language scoping. [Dify Marketplace](https://marketplace.dify.ai/plugins/leslie2046/lingua)
-* **[RAGFlow](https://github.com/leslie2046/dify-ragflow-plugin)**: Connect Dify to RAGFlow for datasets, documents, chunks, retrieval, and memory workflows.
-* **[MinIO](https://github.com/leslie2046/dify-plugin-minio)**: Read, upload, list, and inspect objects in MinIO-backed AI workflows.
-* **[Juhe](https://github.com/leslie2046/dify-plugin-juhe)**: Access weather, exchange rates, oil and gold prices, and stock-market data through Juhe APIs.
-* **[Knowledge](https://github.com/leslie2046/dify-knowledge-plugin)**: Bring existing Dify knowledge-base operations into plugin workflows.
-* **[Moderation](https://github.com/leslie2046/moderation_plugin)**: Moderate Dify app input and output with configurable keywords, preset responses, and keyword masking.
-
-## Selected Project
-
-* **[skills](https://github.com/leslie2046/skills)**: A collection of reusable agent skills for the workflows I use and maintain.
-
-## Current Focus
-
-I am focused on practical AI infrastructure: plugin ecosystems, retrieval systems, model integrations, and the engineering work between a convincing demo and a tool people can trust.
+[![GitHub Roast score](https://ghfind.com/api/badge/leslie2046?lang=zh)](https://ghfind.com/u/leslie2046?ref=badge)
